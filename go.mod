@@ -4,7 +4,7 @@ go 1.25.7
 
 require (
 	github.com/caddyserver/caddy/v2 v2.11.3
-	github.com/crowdsecurity/crowdsec v1.6.3
+	github.com/crowdsecurity/crowdsec v1.7.8
 	github.com/crowdsecurity/go-cs-lib v0.0.25
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
