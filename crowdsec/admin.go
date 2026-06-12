@@ -7,7 +7,7 @@ import (
 
 	"github.com/crowdsecurity/crowdsec/pkg/models"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/adminapi"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/adminapi"
 )
 
 func (c *CrowdSec) Info(_ context.Context) adminapi.Info {

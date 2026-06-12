@@ -33,8 +33,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/command"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/core"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/command"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/core"
 )
 
 func init() {
@@ -198,7 +198,7 @@ func (c *CrowdSec) checkModules() error {
 	// check if running combined with docker_proxy, and trigger warning log if event throttle interval is low
 	if dockerProxy, err := matchModules("docker_proxy"); err == nil && len(dockerProxy) > 0 && c.isStreamingEnabled() {
 		if dockerProxyUsesLowEventThrottleInterval() {
-			c.logger.Warn("using docker_proxy module with a low event throttle interval (<2s) can result in errors; see https://github.com/hslatman/caddy-crowdsec-bouncer/issues/61")
+			c.logger.Warn("using docker_proxy module with a low event throttle interval (<2s) can result in errors; see https://github.com/fhuteau/caddy-crowdsec-bouncer/issues/61")
 		}
 	}
 

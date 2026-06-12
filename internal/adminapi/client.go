@@ -11,7 +11,7 @@ import (
 	caddycmd "github.com/caddyserver/caddy/v2/cmd"
 	"github.com/google/uuid"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/version"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/version"
 )
 
 const (

@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/metrics"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/metrics"
 )
 
 func newCore(t *testing.T) (*Core, error) {

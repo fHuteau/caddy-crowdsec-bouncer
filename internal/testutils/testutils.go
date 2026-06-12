@@ -18,7 +18,7 @@ import (
 	"github.com/testcontainers/testcontainers-go/log"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/crowdsec"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/crowdsec"
 )
 
 const (

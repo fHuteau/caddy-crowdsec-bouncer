@@ -14,8 +14,8 @@ import (
 	"github.com/oxtoacart/bpool"
 	"go.uber.org/zap"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/httputils"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/metrics"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/httputils"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/metrics"
 )
 
 type appsec struct {

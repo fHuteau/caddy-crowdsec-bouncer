@@ -26,10 +26,10 @@ import (
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"go.uber.org/zap"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/crowdsec"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/core"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/httputils"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/servername"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/crowdsec"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/core"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/httputils"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/servername"
 )
 
 func init() {

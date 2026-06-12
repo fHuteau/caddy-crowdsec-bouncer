@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/metrics"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/metrics"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/crowdsecurity/crowdsec/pkg/apiclient"

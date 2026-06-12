@@ -29,9 +29,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/bouncer"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/metrics"
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/version"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/bouncer"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/metrics"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/version"
 )
 
 const (

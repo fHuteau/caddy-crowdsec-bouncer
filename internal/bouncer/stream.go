@@ -10,7 +10,7 @@ import (
 	"github.com/crowdsecurity/crowdsec/pkg/models"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/hslatman/caddy-crowdsec-bouncer/internal/metrics"
+	"github.com/fhuteau/caddy-crowdsec-bouncer/internal/metrics"
 )
 
 type StreamBouncer struct {

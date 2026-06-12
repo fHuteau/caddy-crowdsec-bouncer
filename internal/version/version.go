@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	modulePath = "github.com/hslatman/caddy-crowdsec-bouncer"
+	modulePath = "github.com/fhuteau/caddy-crowdsec-bouncer"
 	fallback   = "v0.8.0"
 )
 
