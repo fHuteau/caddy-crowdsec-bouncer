@@ -1,4 +1,4 @@
-module github.com/hslatman/caddy-crowdsec-bouncer
+module github.com/fhuteau/caddy-crowdsec-bouncer
 
 go 1.25.7
 
